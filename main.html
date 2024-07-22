@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>梦，规你的旅行</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main class="mb-12 w-full flex-grow">
+        <div class="pt-24">
+            <div class="flex w-full items-start justify-end gap-2 px-4 md:px-12">
+                <div class="mx-auto">
+                    <h1 class="mt-5 text-center text-2xl md:mt-12 md:text-3xl">规划你的旅行</h1>
+                    <form class="mt-12 flex w-full max-w-xl flex-col gap-14">
+                        <div>
+                            <p class="mb-4 text-base md:text-lg">你想去哪？</p>
+                            <div>
+                                <div class="text-base md:text-lg"></div>
+                                <div>
+                                    <div class="relative flex md:gap-3 flex-col items-start gap-2">
+                                        <div class="__variable_d37563 w-full max-w-xl rounded-md ">
+                                            <div class="relative w-full">
+                                                <input class="w-full rounded-md border border-solid border-gray-300 bg-white !outline-none transition-colors hover:border-gray-400 focus:border-gray-500 data-hj-allow outline-none " id="use-autocomplete-demo" aria-autocomplete="list" aria-expanded="false" autocomplete="off" autocapitalize="none" spellcheck="false" role="combobox" placeholder="Select a city" required="" data-hj-allow="true" value="">
+                                            </div>
+                                        </div>
+                                        <div class="hidden sm:inline-flex h-fit hover:bg-gray-100 rounded-md py-1.5 px-2 md:px-2.5 flex items-center gap-2 border border-solid bg-white border-gray-300 cursor-pointer group text-sm transition-all md:text-base " type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:ra:" data-state="closed">
+                                            <div class="grid h-6 w-6 place-items-center gap-2 rounded-full bg-gray-200 group-hover:bg-gray-300 md:h-7 md:w-7">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="text-base text-gray-700 iconify iconify--mdi" width="1em" height="1em" viewBox="0 0 24 24">
+                                                    <path fill="currentColor" d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"></path>
+                                                </svg>
+                                            </div>
+                                            <span class="whitespace-nowrap">选择日期</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="ml-6 h-5 border-l-2 border-solid border-gray-200"></div>
+                                <button class="flex items-center gap-1.5 rounded-lg bg-accent-red px-3 py-1.5 text-sm text-white transition-colors hover:bg-accent-red-2 md:ml-1.5">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="text-lg iconify iconify--mdi" width="1em" height="1em" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"></path>
+                                    </svg>增加地点
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="mb-4 w-fit rounded-md text-base transition-all md:text-lg ">选择你想要的活动</h2>
+                            <div class="flex flex-wrap gap-2 md:gap-2">
+                                <label for="kid_friendly" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all text-gray-400 hover:bg-gray-50 md:hover:border-gray-300 md:hover:text-gray-600">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="child-reaching" class="svg-inline--fa fa-child-reaching mb-0.5 text-base transition-all text-gray-200 group-hover:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path fill="currentColor" d="M256 64A64 64 0 1 0 128 64a64 64 0 1 0 128 0zM152.9 169.3c-23.7-8.4-44.5-24.3-58.8-45.8L74.6 94.2C64.8 79.5 45 75.6 30.2 85.4s-18.7 29.7-8.9 44.4L40.9 159c18.1 27.1 42.8 48.4 71.1 62.4V480c0 17.7 14.3 32 32 32s32-14.3 32-32V384h32v96c0 17.7 14.3 32 32 32s32-14.3 32-32V221.6c29.1-14.2 54.4-36.2 72.7-64.2l18.2-27.9c9.6-14.8 5.4-34.6-9.4-44.3s-34.6-5.5-44.3 9.4L291 122.4c-21.8 33.4-58.9 53.6-98.8 53.6c-12.6 0-24.9-2-36.6-5.8c-.9-.3-1.8-.7-2.7-.9z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">照顾儿童</span>
+                                    </div>
+                                    <input id="kid_friendly" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" name="visibility">
+                                </label>
+                                <label for="museums" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all text-gray-400 hover:bg-gray-50 md:hover:border-gray-300 md:hover:text-gray-600">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="building-columns" class="svg-inline--fa fa-building-columns mb-0.5 text-base transition-all text-gray-200 group-hover:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">博物馆</span>
+                                    </div>
+                                    <input id="museums" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" name="visibility">
+                                </label>
+                                <label for="shopping" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all border-primary text-primary border-green-200 bg-primary-green/60 shadow-sm md:hover:bg-primary-green-2">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bag-shopping" class="svg-inline--fa fa-bag-shopping mb-0.5 text-base transition-all text-gray-900" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path fill="currentColor" d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">购物</span>
+                                    </div>
+                                    <input id="shopping" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" checked="" name="visibility">
+                                </label>
+                                <label for="historic" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all border-primary text-primary border-green-200 bg-primary-green/60 shadow-sm md:hover:bg-primary-green-2">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book-open-reader" class="svg-inline--fa fa-book-open-reader mb-0.5 text-base transition-all text-gray-900" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M160 96a96 96 0 1 1 192 0A96 96 0 1 1 160 96zm80 152V512l-48.4-24.2c-20.9-10.4-43.5-17-66.8-19.3l-96-9.6C12.5 457.2 0 443.5 0 427V224c0-17.7 14.3-32 32-32H62.3c63.6 0 125.6 19.6 177.7 56zm32 264V248c52.1-36.4 114.1-56 177.7-56H480c17.7 0 32 14.3 32 32V427c0 16.4-12.5 30.2-28.8 31.8l-96 9.6c-23.2 2.3-45.9 8.9-66.8 19.3L272 512z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">历史名迹</span>
+                                    </div>
+                                    <input id="historic" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" checked="" name="visibility">
+                                </label>
+                                <label for="outdoors" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all text-gray-400 hover:bg-gray-50 md:hover:border-gray-300 md:hover:text-gray-600">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cloud-sun" class="svg-inline--fa fa-cloud-sun mb-0.5 text-base transition-all text-gray-200 group-hover:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                <path fill="currentColor" d="M294.2 1.2c5.1 2.1 8.7 6.7 9.6 12.1l14.1 84.7 84.7 14.1c5.4 .9 10 4.5 12.1 9.6s1.5 10.9-1.6 15.4l-38.5 55c-2.2-.1-4.4-.2-6.7-.2c-23.3 0-45.1 6.2-64 17.1l0-1.1c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c8.1 0 15.9-1 23.4-2.9c-36.6 18.1-63.3 53.1-69.8 94.9l-24.4 17c-4.5 3.1-10.3 3.8-15.4 1.6s-8.7-6.7-9.6-12.1L98.1 317.9 13.4 303.8c-5.4-.9-10-4.5-12.1-9.6s-1.5-10.9 1.6-15.4L52.5 208 2.9 137.2c-3.2-4.5-3.8-10.3-1.6-15.4s6.7-8.7 12.1-9.6L98.1 98.1l14.1-84.7c.9-5.4 4.5-10 9.6-12.1s10.9-1.5 15.4 1.6L208 52.5 278.8 2.9c4.5-3.2 10.3-3.8 15.4-1.6zM144 208a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM639.9 431.9c0 44.2-35.8 80-80 80H288c-53 0-96-43-96-96c0-47.6 34.6-87 80-94.6l0-1.3c0-53 43-96 96-96c34.9 0 65.4 18.6 82.2 46.4c13-9.1 28.8-14.4 45.8-14.4c44.2 0 80 35.8 80 80c0 5.9-.6 11.7-1.9 17.2c37.4 6.7 65.8 39.4 65.8 78.7z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">户外探险</span>
+                                    </div>
+                                    <input id="outdoors" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" name="visibility">
+                                </label>
+                                <label for="art_cultural" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all text-gray-400 hover:bg-gray-50 md:hover:border-gray-300 md:hover:text-gray-600">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" class="svg-inline--fa fa-palette mb-0.5 text-base transition-all text-gray-200 group-hover:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                <path fill="currentColor" d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3H344c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">艺术 &amp; 文化</span>
+                                    </div>
+                                    <input id="art_cultural" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" name="visibility">
+                                </label>
+                                <label for="amusement_parks" class="group grow cursor-pointer rounded-lg border border-solid border-gray-200 px-2 py-1.5 transition-all text-gray-400 hover:bg-gray-50 md:hover:border-gray-300 md:hover:text-gray-600">
+                                    <div class="flex items-center justify-center gap-1.5">
+                                        <div class="grid place-items-center">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="fly" class="svg-inline--fa fa-fly mb-0.5 text-base transition-all text-gray-200 group-hover:text-gray-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                <path fill="currentColor" d="M197.8 427.8c12.9 11.7 33.7 33.3 33.2 50.7 0 .8-.1 1.6-.1 2.5-1.8 19.8-18.8 31.1-39.1 31-25-.1-39.9-16.8-38.7-35.8 1-16.2 20.5-36.7 32.4-47.6 2.3-2.1 2.7-2.7 5.6-3.6 3.4 0 3.9.3 6.7 2.8zM331.9 67.3c-16.3-25.7-38.6-40.6-63.3-52.1C243.1 4.5 214-.2 192 0c-44.1 0-71.2 13.2-81.1 17.3C57.3 45.2 26.5 87.2 28 158.6c7.1 82.2 97 176 155.8 233.8 1.7 1.6 4.5 4.5 6.2 5.1l3.3.1c2.1-.7 1.8-.5 3.5-2.1 52.3-49.2 140.7-145.8 155.9-215.7 7-39.2 3.1-72.5-20.8-112.5zM186.8 351.9c-28-51.1-65.2-130.7-69.3-189-3.4-47.5 11.4-131.2 69.3-136.7v325.7zM328.7 180c-16.4 56.8-77.3 128-118.9 170.3C237.6 298.4 275 217 277 158.4c1.6-45.9-9.8-105.8-48-131.4 88.8 18.3 115.5 98.1 99.7 153z"></path>
+                                            </svg>
+                                        </div>
+                                        <span class="line-clamp-1 text-sm md:text-base">游乐园</span>
+                                    </div>
+                                    <input id="amusement_parks" class="sr-only h-4 w-4 rounded border-gray-300 pr-3 text-blue-600 ring-1 ring-gray-200 focus:ring-2 focus:ring-blue-500" type="checkbox" value="true" name="visibility">
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="mb-4 text-base md:text-lg">有多少人？</p>
+                            <div class="relative flex max-h-[53px]">
+                                <div class="flex w-full items-center justify-between gap-2 rounded-lg border border-solid border-gray-300 px-4 py-2.5 text-base outline-none">
+                                    <div class="flex items-center gap-2">
+                                        <span class="min-w-[40px] rounded-md border border-solid border-green-200 bg-primary-green/60 p-1 px-3 text-center text-sm">1</span>Person
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <button class="flex min-w-[42px] items-center justify-center rounded-md border border-solid border-gray-300 p-1 px-3 py-1.5 text-gray-500 transition-colors hover:border-gray-400 md:hover:bg-gray-100 md:hover:text-gray-700">
+                                            <p class="mb-[2px] text-xl leading-[15px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="text-xs iconify iconify--majesticons" width="1em" height="1em" viewBox="0 0 24 24">
+                                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14"></path>
+                                                </svg>
+                                            </p>
+                                        </button>
+                                        <button class="flex min-w-[42px] items-center justify-center rounded-md border border-solid border-gray-300 p-1 px-3 py-1.5 text-gray-500 transition-colors hover:border-gray-400 md:hover:bg-gray-100 md:hover:text-gray-700">
+                                            <p class="mb-[2px] text-xl leading-[15px]">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="text-xs iconify iconify--majesticons" width="1em" height="1em" viewBox="0 0 24 24">
+                                                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h7m7 0h-7m0 0V5m0 7v7"></path>
+                                                </svg>
+                                            </p>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center justify-center">
+                                <button type="submit" class="mt-8 w-fit items-center rounded-full bg-accent-green px-6 py-2 text-white transition-colors hover:bg-accent-green-2 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:text-gray-500">Create New Trip</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="mt-5 text-center text-sm text-gray-600 opacity-75">By clicking Create New Trip, you agree to our <a class="text-accent-red hover:underline" href="/terms">Terms and Conditions</a> and <a class="text-accent-red hover:underline" href="/privacy">Privacy Policy</a>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
