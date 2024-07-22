@@ -1,9 +1,7 @@
 (function() {
     /*
 
- Copyright The Closure Library Authors.
- SPDX-License-Identifier: Apache-2.0
-*/
+
     var n = this || self
       , p = function(a, b) {
         a = a.split(".");
